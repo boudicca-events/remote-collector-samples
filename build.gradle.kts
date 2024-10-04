@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("events.boudicca:semantic-conventions:0.3.0")
+    implementation("events.boudicca:remote-collector-client:0.5.0")
     implementation("org.springframework.boot:spring-boot-starter-web")
 }
 

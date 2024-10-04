@@ -1,13 +1,13 @@
 package org.example
 
 import base.boudicca.SemanticKeys
+import base.boudicca.api.remotecollector.RemoteCollectorApi
+import base.boudicca.api.remotecollector.model.EventCollection
+import base.boudicca.api.remotecollector.model.HttpCall
 import base.boudicca.model.Event
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.ResponseBody
 import org.springframework.web.bind.annotation.RestController
-import remotecollector.RemoteCollectorApi
-import remotecollector.model.EventCollection
-import remotecollector.model.HttpCall
 import java.time.Instant
 import java.time.OffsetDateTime
 import java.time.temporal.ChronoUnit
