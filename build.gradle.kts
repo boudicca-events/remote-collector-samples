@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.9.21"
-    kotlin("plugin.spring") version "1.9.21"
+    kotlin("jvm") version "2.3.21"
+    kotlin("plugin.spring") version "2.3.21"
     id("org.springframework.boot") version "3.2.3"
     id("io.spring.dependency-management")version "1.1.4"
 }
@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("events.boudicca:remote-collector-client:0.5.0")
+    implementation("events.boudicca:remote-collector-client:0.7.0")
     implementation("org.springframework.boot:spring-boot-starter-web")
 }
 
